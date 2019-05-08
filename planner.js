@@ -20,4 +20,8 @@ function addNewList() {
   rightBlock.appendChild(inputText);
 
   allNotes.appendChild(note); 
+};
+function remove() {
+  const questionRemove = confirm('Желаете удалить заметку?');
+  if (questionRemove = true)
 }
