@@ -24,7 +24,7 @@ function addNewList() {
 };
 function remove() {
   let questionRemove = confirm('Желаете удалить заметку?');
-  if (questionRemove = true) {
-    allNotes.parentNode.removeChild(div);
+  if (questionRemove = 'true') {
+    oneNote.parentNode.removeChild(oneNote);
   }
 }
