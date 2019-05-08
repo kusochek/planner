@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+#newList {
+    border: none;
+    font-size: 18px;
+    color: #888888;
+    font-weight: bold;
+}
+.note {
+    display: flex;
+    align-items: center;
+}
+.note div {
+    display: flex;
+    padding: 3px 5px;
+    font-size: 18px;
+    align-items: center;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 100%;
+    font-size: 18px;
+}

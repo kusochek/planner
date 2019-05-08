@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="planner.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Фильмы</h1>
+    <div class="allNotes">
+        <div class="note"><div><input type="checkbox" id="chkb"></div><div><p>Бешеные Псы</p></div></div>
+        <div class="note"><div><input type="checkbox" id="chkb"></div><div><p>Стрингеры</p></div></div>
+        <div class="note"><div><input type="checkbox" id="chkb"></div><div><p>Грязь</p></div></div>
+        <div class="note"><div><input type="checkbox" id="chkb"></div><div><p>Планета Сокровищ</p></div></div>
+        <div class="note"><div><input type="checkbox" id="chkb"></div><div><p>Остров Сокровищ</p></div></div>
+    </div>
+    <hr color = #d9d9d9>
+    <div class="note" id=newList>
+        <div onclick="addNewList()"><i class='fas fa-plus'></i></div>
+        <div>
+            <form class="addText">
+            <input type="text" id="name" placeholder="List Item">
+            </form>
+        </div>
+    </div>
+    <hr color = #d9d9d9>
+    <div id = editData></div>
+    <script src="planner.js"></script>
+</body>
+</html>
