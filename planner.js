@@ -1,6 +1,7 @@
 const input = document.querySelector('.addText input[type=text]')
 const allNotes = document.querySelector('.allNotes');
 const oneNote = document.querySelector('.note');
+
 function addNewList() {
   const note = document.createElement('div');
   note.classList.add('note');
@@ -22,8 +23,10 @@ function addNewList() {
 
   allNotes.appendChild(note); 
 };
+
 function remove() {
   let questionRemove = confirm('Желаете удалить заметку?');
+
   if (questionRemove = 'true') {
     oneNote.parentNode.removeChild(oneNote);
   }
