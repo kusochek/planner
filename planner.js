@@ -23,8 +23,8 @@ function addNewList() {
   allNotes.appendChild(note); 
 };
 function remove() {
-  const questionRemove = confirm('Желаете удалить заметку?');
+  let questionRemove = confirm('Желаете удалить заметку?');
   if (questionRemove = true) {
-    allNotes.parentNode.removeChild(oneNote);
+    allNotes.parentNode.removeChild(div);
   }
 }
